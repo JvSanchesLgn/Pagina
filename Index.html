@@ -1,23 +1,55 @@
 <html>
     <head>
         <title>Me envie ideias..</title>
-    </head>
+             <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/51abc3326c.js" crossorigin="anonymous"></script>
+        <style>
+          #botao {
+          width: 200px;
+          height: 60px
+          border-style: ridge;
+          border-color: #261b06;
+          border-radius: 35px;
+          color: black;
+          background: #ff000a;
+          }
+          body {          
+          background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHa3taEx-CQEPLVH-DCMg0HrwFfIYG_MyKHw&usqp=CAU');
+          }
+          .Textos {
+          color: #1577ff;
+          border-left-style: double;
+          border-bottom-color: #1523ff;
+          style="font-family: 'Edu VIC WA NT Beginner', cursive;";
+          }
+          .textos2 {
+          color: red;
+          background: black;
+          border-bottom-style: solid;
+          border-bottom-color: #2b13e0;
+          border-bottom-right-radius: 35px;
+          position: center left;
+          }
+        </style>
+            </head>
     <body>
         <p><b>Perfil:</b></p>
         <img width="70"src="FB_IMG_1657644521609.jpg"></img>
         <ul>
-            <li><b>Criador</b>João Victor Sanches Andrade</li>
+            <li><b>Criador </b>João Victor Sanches Andrade</li>
         </ul>
         <form action="https://formspree.io/f/xlezyzdg" method="post">
             <p>
-            <label>Digite Seu Nome: </label><br>
-            <input placeholder="Digite seu nome: " type="text" required value="" name="nome">
+            <label style="font-family: 'Edu VIC WA NT Beginner', cursive;" class="Textos">Digite Seu Nome: </label><br>
+            <input placeholder="Digite seu nome: " type="text" required value="" name="nome" class="textos2">
             </p>
             <p>
-                <label>Digite Sua Ideia: </label><br>
-             <textarea cols="40" rows="30" placeholder="Digite a sua ideia: " name="ideia" ></textarea>
+                <label style="font-family: 'Edu VIC WA NT Beginner', cursive;" class="Textos">Digite Sua Ideia: </label><br>
+             <textarea cols="40" rows="30" placeholder="Digite a sua ideia: " name="ideia" class="textos2"></textarea>
              </p>
-             <button type="submit">Enviar</button>
+             <button type="submit" id="botao">Enviar</button>
         </form>
     </body>
 </html>
